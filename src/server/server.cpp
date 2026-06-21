@@ -240,6 +240,13 @@ void Server::printStatus() {
     std::cout << "Deployment profile initialized." << std::endl;
     std::cout << "Diagnostics initialized." << std::endl;
     std::cout << "RRServer Backend 4.0 READY." << std::endl;
+    std::cout << "Real Auth API initialized." << std::endl;
+    std::cout << "Client compatibility layer initialized." << std::endl;
+    std::cout << "Photon room join API initialized." << std::endl;
+    std::cout << "Photo upload API initialized." << std::endl;
+    std::cout << "Asset serving API initialized." << std::endl;
+    std::cout << "Admin panel API initialized." << std::endl;
+
 
 
 

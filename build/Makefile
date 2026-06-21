@@ -1233,6 +1233,30 @@ src/quests/quests.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rrserver.dir/build.make CMakeFiles/rrserver.dir/src/quests/quests.cpp.s
 .PHONY : src/quests/quests.cpp.s
 
+src/realapi/realapi.o: src/realapi/realapi.cpp.o
+.PHONY : src/realapi/realapi.o
+
+# target to build an object file
+src/realapi/realapi.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rrserver.dir/build.make CMakeFiles/rrserver.dir/src/realapi/realapi.cpp.o
+.PHONY : src/realapi/realapi.cpp.o
+
+src/realapi/realapi.i: src/realapi/realapi.cpp.i
+.PHONY : src/realapi/realapi.i
+
+# target to preprocess a source file
+src/realapi/realapi.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rrserver.dir/build.make CMakeFiles/rrserver.dir/src/realapi/realapi.cpp.i
+.PHONY : src/realapi/realapi.cpp.i
+
+src/realapi/realapi.s: src/realapi/realapi.cpp.s
+.PHONY : src/realapi/realapi.s
+
+# target to generate assembly for a file
+src/realapi/realapi.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rrserver.dir/build.make CMakeFiles/rrserver.dir/src/realapi/realapi.cpp.s
+.PHONY : src/realapi/realapi.cpp.s
+
 src/recnet/recnet.o: src/recnet/recnet.cpp.o
 .PHONY : src/recnet/recnet.o
 
@@ -1740,6 +1764,9 @@ help:
 	@echo "... src/quests/quests.o"
 	@echo "... src/quests/quests.i"
 	@echo "... src/quests/quests.s"
+	@echo "... src/realapi/realapi.o"
+	@echo "... src/realapi/realapi.i"
+	@echo "... src/realapi/realapi.s"
 	@echo "... src/recnet/recnet.o"
 	@echo "... src/recnet/recnet.i"
 	@echo "... src/recnet/recnet.s"

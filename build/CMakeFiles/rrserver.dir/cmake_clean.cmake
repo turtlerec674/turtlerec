@@ -92,6 +92,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/rrserver.dir/src/purchases/purchases.cpp.o.d"
   "CMakeFiles/rrserver.dir/src/quests/quests.cpp.o"
   "CMakeFiles/rrserver.dir/src/quests/quests.cpp.o.d"
+  "CMakeFiles/rrserver.dir/src/realapi/realapi.cpp.o"
+  "CMakeFiles/rrserver.dir/src/realapi/realapi.cpp.o.d"
   "CMakeFiles/rrserver.dir/src/recnet/recnet.cpp.o"
   "CMakeFiles/rrserver.dir/src/recnet/recnet.cpp.o.d"
   "CMakeFiles/rrserver.dir/src/reports/reports.cpp.o"

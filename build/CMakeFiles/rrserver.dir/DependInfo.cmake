@@ -54,6 +54,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/data/data/com.termux/files/home/RRServerMonoCpp/src/profiles/profiles.cpp" "CMakeFiles/rrserver.dir/src/profiles/profiles.cpp.o" "gcc" "CMakeFiles/rrserver.dir/src/profiles/profiles.cpp.o.d"
   "/data/data/com.termux/files/home/RRServerMonoCpp/src/purchases/purchases.cpp" "CMakeFiles/rrserver.dir/src/purchases/purchases.cpp.o" "gcc" "CMakeFiles/rrserver.dir/src/purchases/purchases.cpp.o.d"
   "/data/data/com.termux/files/home/RRServerMonoCpp/src/quests/quests.cpp" "CMakeFiles/rrserver.dir/src/quests/quests.cpp.o" "gcc" "CMakeFiles/rrserver.dir/src/quests/quests.cpp.o.d"
+  "/data/data/com.termux/files/home/RRServerMonoCpp/src/realapi/realapi.cpp" "CMakeFiles/rrserver.dir/src/realapi/realapi.cpp.o" "gcc" "CMakeFiles/rrserver.dir/src/realapi/realapi.cpp.o.d"
   "/data/data/com.termux/files/home/RRServerMonoCpp/src/recnet/recnet.cpp" "CMakeFiles/rrserver.dir/src/recnet/recnet.cpp.o" "gcc" "CMakeFiles/rrserver.dir/src/recnet/recnet.cpp.o.d"
   "/data/data/com.termux/files/home/RRServerMonoCpp/src/reports/reports.cpp" "CMakeFiles/rrserver.dir/src/reports/reports.cpp.o" "gcc" "CMakeFiles/rrserver.dir/src/reports/reports.cpp.o.d"
   "/data/data/com.termux/files/home/RRServerMonoCpp/src/rooms/room.cpp" "CMakeFiles/rrserver.dir/src/rooms/room.cpp.o" "gcc" "CMakeFiles/rrserver.dir/src/rooms/room.cpp.o.d"

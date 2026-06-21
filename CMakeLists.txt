@@ -68,6 +68,7 @@ add_executable(rrserver
     src/backend2/backend2.cpp
     src/backend3/backend3.cpp
     src/backend4/backend4.cpp
+    src/realapi/realapi.cpp
 )
 
 target_link_libraries(rrserver SQLite3::SQLite3)

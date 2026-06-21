@@ -55,6 +55,7 @@
 #include "../backend2/backend2.h"
 #include "../backend3/backend3.h"
 #include "../backend4/backend4.h"
+#include "../realapi/realapi.h"
 
 static std::string ok(const std::string& body) {
     return "HTTP/1.1 200 OK\r\n"
@@ -384,6 +385,18 @@ static std::string route(const std::string& req) {
     if (has(req, "GET /api/backend4/persistence")) return ok(Backend4::persistence());
     if (has(req, "GET /api/backend4/deployment")) return ok(Backend4::deployment());
     if (has(req, "GET /api/backend4/diagnostics")) return ok(Backend4::diagnostics());
+
+    if (has(req, "POST /api/auth/register")) return ok(RealAPI::authRegister());
+    if (has(req, "POST /api/auth/login")) return ok(RealAPI::authLogin());
+    if (has(req, "GET /api/rooms/list")) return ok(RealAPI::roomsList());
+    if (has(req, "POST /api/rooms/join")) return ok(RealAPI::roomsJoin());
+    if (has(req, "GET /api/inventory/get")) return ok(RealAPI::inventoryGet());
+    if (has(req, "GET /api/recnet/feed")) return ok(RealAPI::recnetFeed());
+    if (has(req, "POST /api/photos/upload")) return ok(RealAPI::photosUpload());
+    if (has(req, "GET /api/client/compat")) return ok(RealAPI::clientCompat());
+    if (has(req, "POST /api/photon/join")) return ok(RealAPI::photonJoin());
+    if (has(req, "GET /api/assets/list")) return ok(RealAPI::assetServe());
+    if (has(req, "GET /api/admin/panel")) return ok(RealAPI::adminPanel());
 
     return notFound();
 }
