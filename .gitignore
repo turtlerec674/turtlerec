@@ -1,0 +1,12 @@
+build/
+*.db
+*.sqlite
+*.log
+*.o
+*.so
+*.a
+*.out
+*.exe
+.cache/
+.vscode/
+.idea/
