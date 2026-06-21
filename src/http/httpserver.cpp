@@ -56,6 +56,7 @@
 #include "../backend3/backend3.h"
 #include "../backend4/backend4.h"
 #include "../realapi/realapi.h"
+#include "../phase6/phase6.h"
 
 static std::string ok(const std::string& body) {
     return "HTTP/1.1 200 OK\r\n"
@@ -397,6 +398,27 @@ static std::string route(const std::string& req) {
     if (has(req, "POST /api/photon/join")) return ok(RealAPI::photonJoin());
     if (has(req, "GET /api/assets/list")) return ok(RealAPI::assetServe());
     if (has(req, "GET /api/admin/panel")) return ok(RealAPI::adminPanel());
+
+    if (has(req, "GET /api/ws/status")) return ok(Phase6::websocket());
+    if (has(req, "POST /api/photos/upload-real")) return ok(Phase6::photoUpload());
+    if (has(req, "GET /api/assets/manager")) return ok(Phase6::assets());
+    if (has(req, "GET /api/movement/authority")) return ok(Phase6::movementAuthority());
+    if (has(req, "GET /dashboard/users")) return ok(Phase6::dashboard());
+    if (has(req, "GET /dashboard/reports")) return ok(Phase6::dashboard());
+    if (has(req, "GET /dashboard/rooms")) return ok(Phase6::dashboard());
+    if (has(req, "GET /dashboard/bans")) return ok(Phase6::dashboard());
+    if (has(req, "GET /dashboard/instances")) return ok(Phase6::dashboard());
+    if (has(req, "GET /api/client/support")) return ok(Phase6::clientSupport());
+    if (has(req, "POST /auth/login")) return ok(RealAPI::authLogin());
+    if (has(req, "POST /auth/register")) return ok(RealAPI::authRegister());
+    if (has(req, "GET /players/me")) return ok(RealAPI::authLogin());
+    if (has(req, "GET /rooms")) return ok(RealAPI::roomsList());
+    if (has(req, "POST /rooms/join")) return ok(RealAPI::roomsJoin());
+    if (has(req, "GET /inventory")) return ok(RealAPI::inventoryGet());
+    if (has(req, "GET /store")) return ok("{\"items\":[{\"id\":1,\"name\":\"Starter Hoodie\",\"price\":250}]}");
+    if (has(req, "GET /friends")) return ok("{\"friends\":[2,3,4]}");
+    if (has(req, "GET /notifications")) return ok("{\"notifications\":[{\"id\":1,\"text\":\"Welcome to TurtleRec\"}]}");
+    if (has(req, "GET /recnet/feed")) return ok(RealAPI::recnetFeed());
 
     return notFound();
 }

@@ -82,6 +82,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/rrserver.dir/src/notifications/notifications.cpp.o.d"
   "CMakeFiles/rrserver.dir/src/parties/parties.cpp.o"
   "CMakeFiles/rrserver.dir/src/parties/parties.cpp.o.d"
+  "CMakeFiles/rrserver.dir/src/phase6/phase6.cpp.o"
+  "CMakeFiles/rrserver.dir/src/phase6/phase6.cpp.o.d"
   "CMakeFiles/rrserver.dir/src/photos/photos.cpp.o"
   "CMakeFiles/rrserver.dir/src/photos/photos.cpp.o.d"
   "CMakeFiles/rrserver.dir/src/presence/presence.cpp.o"

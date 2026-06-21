@@ -246,6 +246,13 @@ void Server::printStatus() {
     std::cout << "Photo upload API initialized." << std::endl;
     std::cout << "Asset serving API initialized." << std::endl;
     std::cout << "Admin panel API initialized." << std::endl;
+    std::cout << "WebSocket status API initialized." << std::endl;
+    std::cout << "Real photo upload endpoint initialized." << std::endl;
+    std::cout << "Asset manager initialized." << std::endl;
+    std::cout << "Movement authority initialized." << std::endl;
+    std::cout << "Admin dashboard routes initialized." << std::endl;
+    std::cout << "2022 client support aliases initialized." << std::endl;
+
 
 
 

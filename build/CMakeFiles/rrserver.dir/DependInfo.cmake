@@ -49,6 +49,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/data/data/com.termux/files/home/RRServerMonoCpp/src/moderation/moderation.cpp" "CMakeFiles/rrserver.dir/src/moderation/moderation.cpp.o" "gcc" "CMakeFiles/rrserver.dir/src/moderation/moderation.cpp.o.d"
   "/data/data/com.termux/files/home/RRServerMonoCpp/src/notifications/notifications.cpp" "CMakeFiles/rrserver.dir/src/notifications/notifications.cpp.o" "gcc" "CMakeFiles/rrserver.dir/src/notifications/notifications.cpp.o.d"
   "/data/data/com.termux/files/home/RRServerMonoCpp/src/parties/parties.cpp" "CMakeFiles/rrserver.dir/src/parties/parties.cpp.o" "gcc" "CMakeFiles/rrserver.dir/src/parties/parties.cpp.o.d"
+  "/data/data/com.termux/files/home/RRServerMonoCpp/src/phase6/phase6.cpp" "CMakeFiles/rrserver.dir/src/phase6/phase6.cpp.o" "gcc" "CMakeFiles/rrserver.dir/src/phase6/phase6.cpp.o.d"
   "/data/data/com.termux/files/home/RRServerMonoCpp/src/photos/photos.cpp" "CMakeFiles/rrserver.dir/src/photos/photos.cpp.o" "gcc" "CMakeFiles/rrserver.dir/src/photos/photos.cpp.o.d"
   "/data/data/com.termux/files/home/RRServerMonoCpp/src/presence/presence.cpp" "CMakeFiles/rrserver.dir/src/presence/presence.cpp.o" "gcc" "CMakeFiles/rrserver.dir/src/presence/presence.cpp.o.d"
   "/data/data/com.termux/files/home/RRServerMonoCpp/src/profiles/profiles.cpp" "CMakeFiles/rrserver.dir/src/profiles/profiles.cpp.o" "gcc" "CMakeFiles/rrserver.dir/src/profiles/profiles.cpp.o.d"

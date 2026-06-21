@@ -62,6 +62,7 @@ rrserver: \
  CMakeFiles/rrserver.dir/src/backend3/backend3.cpp.o \
  CMakeFiles/rrserver.dir/src/backend4/backend4.cpp.o \
  CMakeFiles/rrserver.dir/src/realapi/realapi.cpp.o \
+ CMakeFiles/rrserver.dir/src/phase6/phase6.cpp.o \
  /data/data/com.termux/files/usr/lib/libsqlite3.so \
  /data/data/com.termux/files/usr/lib/libc++_shared.so \
  /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a \
@@ -196,6 +197,8 @@ CMakeFiles/rrserver.dir/src/backend3/backend3.cpp.o:
 CMakeFiles/rrserver.dir/src/backend4/backend4.cpp.o:
 
 CMakeFiles/rrserver.dir/src/realapi/realapi.cpp.o:
+
+CMakeFiles/rrserver.dir/src/phase6/phase6.cpp.o:
 
 /data/data/com.termux/files/usr/lib/libsqlite3.so:
 
