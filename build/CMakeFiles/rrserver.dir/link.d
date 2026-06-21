@@ -1,0 +1,211 @@
+rrserver: \
+ /data/data/com.termux/files/usr/lib/crtbegin_dynamic.o \
+ CMakeFiles/rrserver.dir/src/main.cpp.o \
+ CMakeFiles/rrserver.dir/src/accounts/account.cpp.o \
+ CMakeFiles/rrserver.dir/src/rooms/room.cpp.o \
+ CMakeFiles/rrserver.dir/src/matchmaking/matchmaking.cpp.o \
+ CMakeFiles/rrserver.dir/src/inventory/inventory.cpp.o \
+ CMakeFiles/rrserver.dir/src/moderation/moderation.cpp.o \
+ CMakeFiles/rrserver.dir/src/anticheat/anticheat.cpp.o \
+ CMakeFiles/rrserver.dir/src/server/server.cpp.o \
+ CMakeFiles/rrserver.dir/src/friends/friends.cpp.o \
+ CMakeFiles/rrserver.dir/src/profiles/profiles.cpp.o \
+ CMakeFiles/rrserver.dir/src/currency/currency.cpp.o \
+ CMakeFiles/rrserver.dir/src/sessions/sessions.cpp.o \
+ CMakeFiles/rrserver.dir/src/presence/presence.cpp.o \
+ CMakeFiles/rrserver.dir/src/parties/parties.cpp.o \
+ CMakeFiles/rrserver.dir/src/notifications/notifications.cpp.o \
+ CMakeFiles/rrserver.dir/src/avatar/avatar.cpp.o \
+ CMakeFiles/rrserver.dir/src/dorms/dorms.cpp.o \
+ CMakeFiles/rrserver.dir/src/economy/economy.cpp.o \
+ CMakeFiles/rrserver.dir/src/voice/voice.cpp.o \
+ CMakeFiles/rrserver.dir/src/messages/messages.cpp.o \
+ CMakeFiles/rrserver.dir/src/invites/invites.cpp.o \
+ CMakeFiles/rrserver.dir/src/leaderboards/leaderboards.cpp.o \
+ CMakeFiles/rrserver.dir/src/achievements/achievements.cpp.o \
+ CMakeFiles/rrserver.dir/src/clubs/clubs.cpp.o \
+ CMakeFiles/rrserver.dir/src/blocklist/blocklist.cpp.o \
+ CMakeFiles/rrserver.dir/src/store/store.cpp.o \
+ CMakeFiles/rrserver.dir/src/purchases/purchases.cpp.o \
+ CMakeFiles/rrserver.dir/src/reports/reports.cpp.o \
+ CMakeFiles/rrserver.dir/src/bans/bans.cpp.o \
+ CMakeFiles/rrserver.dir/src/logs/logs.cpp.o \
+ CMakeFiles/rrserver.dir/src/photos/photos.cpp.o \
+ CMakeFiles/rrserver.dir/src/screenshots/screenshots.cpp.o \
+ CMakeFiles/rrserver.dir/src/consumables/consumables.cpp.o \
+ CMakeFiles/rrserver.dir/src/trading/trading.cpp.o \
+ CMakeFiles/rrserver.dir/src/rrplus/rrplus.cpp.o \
+ CMakeFiles/rrserver.dir/src/gifts/gifts.cpp.o \
+ CMakeFiles/rrserver.dir/src/http/httpserver.cpp.o \
+ CMakeFiles/rrserver.dir/src/sqlite/sqlite.cpp.o \
+ CMakeFiles/rrserver.dir/src/auth/auth.cpp.o \
+ CMakeFiles/rrserver.dir/src/assets/assets.cpp.o \
+ CMakeFiles/rrserver.dir/src/instances/instances.cpp.o \
+ CMakeFiles/rrserver.dir/src/cloudsave/cloudsave.cpp.o \
+ CMakeFiles/rrserver.dir/src/equipment/equipment.cpp.o \
+ CMakeFiles/rrserver.dir/src/quests/quests.cpp.o \
+ CMakeFiles/rrserver.dir/src/admin/admin.cpp.o \
+ CMakeFiles/rrserver.dir/src/staff/staff.cpp.o \
+ CMakeFiles/rrserver.dir/src/live/live.cpp.o \
+ CMakeFiles/rrserver.dir/src/recnet/recnet.cpp.o \
+ CMakeFiles/rrserver.dir/src/events/events.cpp.o \
+ CMakeFiles/rrserver.dir/src/workshop/workshop.cpp.o \
+ CMakeFiles/rrserver.dir/src/analytics/analytics.cpp.o \
+ CMakeFiles/rrserver.dir/src/security/security.cpp.o \
+ CMakeFiles/rrserver.dir/src/cosmetics/cosmetics.cpp.o \
+ CMakeFiles/rrserver.dir/src/announcements/announcements.cpp.o \
+ CMakeFiles/rrserver.dir/src/finalsystems/finalsystems.cpp.o \
+ CMakeFiles/rrserver.dir/src/v1systems/v1systems.cpp.o \
+ CMakeFiles/rrserver.dir/src/gameplaypack/gameplaypack.cpp.o \
+ CMakeFiles/rrserver.dir/src/launchpack/launchpack.cpp.o \
+ CMakeFiles/rrserver.dir/src/backend2/backend2.cpp.o \
+ CMakeFiles/rrserver.dir/src/backend3/backend3.cpp.o \
+ CMakeFiles/rrserver.dir/src/backend4/backend4.cpp.o \
+ /data/data/com.termux/files/usr/lib/libsqlite3.so \
+ /data/data/com.termux/files/usr/lib/libc++_shared.so \
+ /data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a \
+ /data/data/com.termux/files/usr/lib/libunwind.a \
+ /system/lib64/libdl.so \
+ /system/lib64/libm.so \
+ /system/lib64/libc.so \
+ /data/data/com.termux/files/usr/lib/crtend_android.o
+
+/data/data/com.termux/files/usr/lib/crtbegin_dynamic.o:
+
+CMakeFiles/rrserver.dir/src/main.cpp.o:
+
+CMakeFiles/rrserver.dir/src/accounts/account.cpp.o:
+
+CMakeFiles/rrserver.dir/src/rooms/room.cpp.o:
+
+CMakeFiles/rrserver.dir/src/matchmaking/matchmaking.cpp.o:
+
+CMakeFiles/rrserver.dir/src/inventory/inventory.cpp.o:
+
+CMakeFiles/rrserver.dir/src/moderation/moderation.cpp.o:
+
+CMakeFiles/rrserver.dir/src/anticheat/anticheat.cpp.o:
+
+CMakeFiles/rrserver.dir/src/server/server.cpp.o:
+
+CMakeFiles/rrserver.dir/src/friends/friends.cpp.o:
+
+CMakeFiles/rrserver.dir/src/profiles/profiles.cpp.o:
+
+CMakeFiles/rrserver.dir/src/currency/currency.cpp.o:
+
+CMakeFiles/rrserver.dir/src/sessions/sessions.cpp.o:
+
+CMakeFiles/rrserver.dir/src/presence/presence.cpp.o:
+
+CMakeFiles/rrserver.dir/src/parties/parties.cpp.o:
+
+CMakeFiles/rrserver.dir/src/notifications/notifications.cpp.o:
+
+CMakeFiles/rrserver.dir/src/avatar/avatar.cpp.o:
+
+CMakeFiles/rrserver.dir/src/dorms/dorms.cpp.o:
+
+CMakeFiles/rrserver.dir/src/economy/economy.cpp.o:
+
+CMakeFiles/rrserver.dir/src/voice/voice.cpp.o:
+
+CMakeFiles/rrserver.dir/src/messages/messages.cpp.o:
+
+CMakeFiles/rrserver.dir/src/invites/invites.cpp.o:
+
+CMakeFiles/rrserver.dir/src/leaderboards/leaderboards.cpp.o:
+
+CMakeFiles/rrserver.dir/src/achievements/achievements.cpp.o:
+
+CMakeFiles/rrserver.dir/src/clubs/clubs.cpp.o:
+
+CMakeFiles/rrserver.dir/src/blocklist/blocklist.cpp.o:
+
+CMakeFiles/rrserver.dir/src/store/store.cpp.o:
+
+CMakeFiles/rrserver.dir/src/purchases/purchases.cpp.o:
+
+CMakeFiles/rrserver.dir/src/reports/reports.cpp.o:
+
+CMakeFiles/rrserver.dir/src/bans/bans.cpp.o:
+
+CMakeFiles/rrserver.dir/src/logs/logs.cpp.o:
+
+CMakeFiles/rrserver.dir/src/photos/photos.cpp.o:
+
+CMakeFiles/rrserver.dir/src/screenshots/screenshots.cpp.o:
+
+CMakeFiles/rrserver.dir/src/consumables/consumables.cpp.o:
+
+CMakeFiles/rrserver.dir/src/trading/trading.cpp.o:
+
+CMakeFiles/rrserver.dir/src/rrplus/rrplus.cpp.o:
+
+CMakeFiles/rrserver.dir/src/gifts/gifts.cpp.o:
+
+CMakeFiles/rrserver.dir/src/http/httpserver.cpp.o:
+
+CMakeFiles/rrserver.dir/src/sqlite/sqlite.cpp.o:
+
+CMakeFiles/rrserver.dir/src/auth/auth.cpp.o:
+
+CMakeFiles/rrserver.dir/src/assets/assets.cpp.o:
+
+CMakeFiles/rrserver.dir/src/instances/instances.cpp.o:
+
+CMakeFiles/rrserver.dir/src/cloudsave/cloudsave.cpp.o:
+
+CMakeFiles/rrserver.dir/src/equipment/equipment.cpp.o:
+
+CMakeFiles/rrserver.dir/src/quests/quests.cpp.o:
+
+CMakeFiles/rrserver.dir/src/admin/admin.cpp.o:
+
+CMakeFiles/rrserver.dir/src/staff/staff.cpp.o:
+
+CMakeFiles/rrserver.dir/src/live/live.cpp.o:
+
+CMakeFiles/rrserver.dir/src/recnet/recnet.cpp.o:
+
+CMakeFiles/rrserver.dir/src/events/events.cpp.o:
+
+CMakeFiles/rrserver.dir/src/workshop/workshop.cpp.o:
+
+CMakeFiles/rrserver.dir/src/analytics/analytics.cpp.o:
+
+CMakeFiles/rrserver.dir/src/security/security.cpp.o:
+
+CMakeFiles/rrserver.dir/src/cosmetics/cosmetics.cpp.o:
+
+CMakeFiles/rrserver.dir/src/announcements/announcements.cpp.o:
+
+CMakeFiles/rrserver.dir/src/finalsystems/finalsystems.cpp.o:
+
+CMakeFiles/rrserver.dir/src/v1systems/v1systems.cpp.o:
+
+CMakeFiles/rrserver.dir/src/gameplaypack/gameplaypack.cpp.o:
+
+CMakeFiles/rrserver.dir/src/launchpack/launchpack.cpp.o:
+
+CMakeFiles/rrserver.dir/src/backend2/backend2.cpp.o:
+
+CMakeFiles/rrserver.dir/src/backend3/backend3.cpp.o:
+
+CMakeFiles/rrserver.dir/src/backend4/backend4.cpp.o:
+
+/data/data/com.termux/files/usr/lib/libsqlite3.so:
+
+/data/data/com.termux/files/usr/lib/libc++_shared.so:
+
+/data/data/com.termux/files/usr/lib/clang/21/lib/linux/libclang_rt.builtins-aarch64-android.a:
+
+/data/data/com.termux/files/usr/lib/libunwind.a:
+
+/system/lib64/libdl.so:
+
+/system/lib64/libm.so:
+
+/system/lib64/libc.so:
+
+/data/data/com.termux/files/usr/lib/crtend_android.o:
