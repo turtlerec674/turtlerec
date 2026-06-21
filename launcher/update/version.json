@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1-alpha",
+  "required": false,
+  "backend": "6.0",
+  "message": "TurtleRec backend alpha is online."
+}

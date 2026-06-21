@@ -1,0 +1,21 @@
+name: Build RRServer
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: sudo apt update && sudo apt install -y cmake g++ libsqlite3-dev
+
+      - name: Configure
+        run: mkdir -p build && cd build && cmake ..
+
+      - name: Build
+        run: cd build && make
