@@ -3,55 +3,51 @@ using HarmonyLib;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace TurtleRecConnector
+[BepInPlugin("turtlerec.connector", "TurtleRec Connector", "0.3.0")]
+public class Plugin : BaseUnityPlugin
 {
-    [BepInPlugin("com.turtlerec.connector", "TurtleRec Connector", "1.0.0")]
-    public class Plugin : BaseUnityPlugin
+    public static string BackendUrl = "http://127.0.0.1:3000";
+
+    void Awake()
     {
-        public static string BackendUrl = "http://127.0.0.1:3000";
-
-        private void Awake()
-        {
-            Logger.LogInfo("TurtleRec Connector loaded.");
-            Logger.LogInfo("Redirecting RecNet/API traffic to: " + BackendUrl);
-
-            Harmony harmony = new Harmony("com.turtlerec.connector");
-            harmony.PatchAll();
-        }
+        Logger.LogInfo("TurtleRec Connector 0.3 loaded");
+        Logger.LogInfo("Backend URL: " + BackendUrl);
+        new Harmony("turtlerec.connector").PatchAll();
     }
+}
 
-    [HarmonyPatch(typeof(UnityWebRequest))]
-    public static class UnityWebRequestPatch
+[HarmonyPatch(typeof(UnityWebRequest), "SendWebRequest")]
+public class SendPatch
+{
+    static void Prefix(UnityWebRequest __instance)
     {
-        [HarmonyPatch("set_url")]
-        [HarmonyPrefix]
-        public static void PatchUrl(ref string value)
+        string oldUrl = __instance.url;
+
+        if (string.IsNullOrEmpty(oldUrl)) return;
+
+        string newUrl = oldUrl
+            .Replace("https://api.rec.net", Plugin.BackendUrl)
+            .Replace("http://api.rec.net", Plugin.BackendUrl)
+            .Replace("https://accounts.rec.net", Plugin.BackendUrl)
+            .Replace("http://accounts.rec.net", Plugin.BackendUrl)
+            .Replace("https://rec.net", Plugin.BackendUrl)
+            .Replace("http://rec.net", Plugin.BackendUrl)
+            .Replace("https://images.rec.net", Plugin.BackendUrl)
+            .Replace("http://images.rec.net", Plugin.BackendUrl)
+            .Replace("https://match.rec.net", Plugin.BackendUrl)
+            .Replace("http://match.rec.net", Plugin.BackendUrl);
+
+        if (newUrl != oldUrl)
         {
-            if (string.IsNullOrEmpty(value))
-                return;
+            __instance.url = newUrl;
+            Debug.Log("[TurtleRecConnector] Redirected: " + oldUrl + " -> " + newUrl);
+        }
 
-            string oldUrl = value;
+        string lower = __instance.url.ToLower();
 
-            value = value
-                .Replace("https://accounts.rec.net", Plugin.BackendUrl)
-                .Replace("https://api.rec.net", Plugin.BackendUrl)
-                .Replace("https://match.rec.net", Plugin.BackendUrl)
-                .Replace("https://rooms.rec.net", Plugin.BackendUrl)
-                .Replace("https://images.rec.net", Plugin.BackendUrl)
-                .Replace("https://cdn.rec.net", Plugin.BackendUrl)
-                .Replace("https://rec.net", Plugin.BackendUrl)
-                .Replace("http://accounts.rec.net", Plugin.BackendUrl)
-                .Replace("http://api.rec.net", Plugin.BackendUrl)
-                .Replace("http://match.rec.net", Plugin.BackendUrl)
-                .Replace("http://rooms.rec.net", Plugin.BackendUrl)
-                .Replace("http://images.rec.net", Plugin.BackendUrl)
-                .Replace("http://cdn.rec.net", Plugin.BackendUrl)
-                .Replace("http://rec.net", Plugin.BackendUrl);
-
-            if (oldUrl != value)
-            {
-                Debug.Log("[TurtleRecConnector] Redirected: " + oldUrl + " -> " + value);
-            }
+        if (lower.Contains("login") || lower.Contains("auth") || lower.Contains("recnet") || lower.Contains("photo") || lower.Contains("upload") || lower.Contains("photon") || lower.Contains("room"))
+        {
+            Debug.Log("[TurtleRecConnector] Request: " + __instance.method + " " + __instance.url);
         }
     }
 }
