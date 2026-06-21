@@ -57,6 +57,7 @@
 #include "../backend4/backend4.h"
 #include "../realapi/realapi.h"
 #include "../phase6/phase6.h"
+#include "../phase7/phase7.h"
 
 static std::string ok(const std::string& body) {
     return "HTTP/1.1 200 OK\r\n"
@@ -419,6 +420,14 @@ static std::string route(const std::string& req) {
     if (has(req, "GET /friends")) return ok("{\"friends\":[2,3,4]}");
     if (has(req, "GET /notifications")) return ok("{\"notifications\":[{\"id\":1,\"text\":\"Welcome to TurtleRec\"}]}");
     if (has(req, "GET /recnet/feed")) return ok(RealAPI::recnetFeed());
+
+    if (has(req, "GET /api/phase7/friends")) return ok(Phase7::friends());
+    if (has(req, "GET /api/phase7/parties")) return ok(Phase7::parties());
+    if (has(req, "GET /api/phase7/notifications")) return ok(Phase7::notifications());
+    if (has(req, "GET /api/phase7/clubs")) return ok(Phase7::clubs());
+    if (has(req, "GET /api/phase7/inventory")) return ok(Phase7::inventory());
+    if (has(req, "GET /api/phase7/economy")) return ok(Phase7::economy());
+    if (has(req, "GET /api/phase7/creator-economy")) return ok(Phase7::creatorEconomy());
 
     return notFound();
 }

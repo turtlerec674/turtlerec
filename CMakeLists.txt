@@ -70,6 +70,7 @@ add_executable(rrserver
     src/backend4/backend4.cpp
     src/realapi/realapi.cpp
     src/phase6/phase6.cpp
+    src/phase7/phase7.cpp
 )
 
 target_link_libraries(rrserver SQLite3::SQLite3)

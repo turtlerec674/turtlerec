@@ -252,6 +252,15 @@ void Server::printStatus() {
     std::cout << "Movement authority initialized." << std::endl;
     std::cout << "Admin dashboard routes initialized." << std::endl;
     std::cout << "2022 client support aliases initialized." << std::endl;
+    std::cout << "Friends API initialized." << std::endl;
+    std::cout << "Party V4 API initialized." << std::endl;
+    std::cout << "Notifications V3 API initialized." << std::endl;
+    std::cout << "Clubs V4 API initialized." << std::endl;
+    std::cout << "Inventory V3 API initialized." << std::endl;
+    std::cout << "Economy V4 API initialized." << std::endl;
+    std::cout << "Creator Economy API initialized." << std::endl;
+    std::cout << "RRServer Backend 5.0 READY." << std::endl;
+
 
 
 

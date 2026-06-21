@@ -1137,6 +1137,30 @@ src/phase6/phase6.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/rrserver.dir/build.make CMakeFiles/rrserver.dir/src/phase6/phase6.cpp.s
 .PHONY : src/phase6/phase6.cpp.s
 
+src/phase7/phase7.o: src/phase7/phase7.cpp.o
+.PHONY : src/phase7/phase7.o
+
+# target to build an object file
+src/phase7/phase7.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rrserver.dir/build.make CMakeFiles/rrserver.dir/src/phase7/phase7.cpp.o
+.PHONY : src/phase7/phase7.cpp.o
+
+src/phase7/phase7.i: src/phase7/phase7.cpp.i
+.PHONY : src/phase7/phase7.i
+
+# target to preprocess a source file
+src/phase7/phase7.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rrserver.dir/build.make CMakeFiles/rrserver.dir/src/phase7/phase7.cpp.i
+.PHONY : src/phase7/phase7.cpp.i
+
+src/phase7/phase7.s: src/phase7/phase7.cpp.s
+.PHONY : src/phase7/phase7.s
+
+# target to generate assembly for a file
+src/phase7/phase7.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/rrserver.dir/build.make CMakeFiles/rrserver.dir/src/phase7/phase7.cpp.s
+.PHONY : src/phase7/phase7.cpp.s
+
 src/photos/photos.o: src/photos/photos.cpp.o
 .PHONY : src/photos/photos.o
 
@@ -1776,6 +1800,9 @@ help:
 	@echo "... src/phase6/phase6.o"
 	@echo "... src/phase6/phase6.i"
 	@echo "... src/phase6/phase6.s"
+	@echo "... src/phase7/phase7.o"
+	@echo "... src/phase7/phase7.i"
+	@echo "... src/phase7/phase7.s"
 	@echo "... src/photos/photos.o"
 	@echo "... src/photos/photos.i"
 	@echo "... src/photos/photos.s"
