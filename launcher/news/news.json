@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Custom DLL Built",
+    "date": "2026-06-21",
+    "body": "TurtleRec Connector DLL was successfully compiled entirely on Android."
+  },
+  {
+    "title": "Backend Started",
+    "date": "2026-06-21",
+    "body": "Authentication, rooms, RecNet, photos and Photon compatibility are now in development."
+  }
+]

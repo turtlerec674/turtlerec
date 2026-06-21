@@ -1,0 +1,8 @@
+{
+  "BackendUrl": "http://127.0.0.1:3000",
+  "SelectedVersion": "2022",
+  "Discord": "https://discord.gg/xxxxx",
+  "EnableCustomContent": true,
+  "EnableAntiCheat": true,
+  "EnableDebugLogging": true
+}
