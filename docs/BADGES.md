@@ -3,6 +3,7 @@
 - Owner
 - Developer
 - Administrator
+- Community Team
 - Moderator
 - Early Supporter
 - OG Tester
