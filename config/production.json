@@ -1,0 +1,14 @@
+{
+  "host":"0.0.0.0",
+  "port":3000,
+
+  "domain":"api.turtlerec.net",
+
+  "cdn":"cdn.turtlerec.net",
+
+  "photon":"photon.turtlerec.net",
+
+  "recnet":"recnet.turtlerec.net",
+
+  "ssl":true
+}
